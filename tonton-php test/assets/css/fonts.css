@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'titre-regular';
+    src: url('../fonts/Architects Daughter/architectsdaughter-regular-webfont.woff2') format('woff2'),
+    url('../fonts/Architects Daughter/architectsdaughter-regular-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'texte-bold';
+    src: url('../fonts/Open Sans Condensed/opensanscondensed-bold-webfont.woff2') format('woff2'),
+    url('../fonts/Open Sans Condensed/opensanscondensed-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'texte-light';
+    src: url('../fonts/Open Sans Condensed/opensanscondensed-light-webfont.woff2') format('woff2'),
+    url('../fonts/Open Sans Condensed/opensanscondensed-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'texte-italic';
+    src: url('../fonts/Open Sans Condensed/opensanscondensed-lightitalic-webfont.woff2') format('woff2'),
+    url('../fonts/Open Sans Condensed/opensanscondensed-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

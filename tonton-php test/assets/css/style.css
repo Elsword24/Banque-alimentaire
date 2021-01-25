@@ -1,0 +1,613 @@
+@import url(fonts.css);
+@import url(reboot.css);
+@import url(responsive.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #191919;
+    color: #FFF;
+}
+
+section {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.margin-around {
+    display: flex;
+    margin: 20px;
+    width: calc(100% - 40px);
+}
+
+.padd-around {
+    display: flex;
+    padding: 20px;
+    width: calc(100% - 40px);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x-center {
+    justify-content: center;
+}
+
+.y-center {
+    align-items: center;
+}
+
+.active a {
+    color: gold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px 30px;
+    width: calc(100% - 60px);
+    background-color: #000;
+}
+
+nav, nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    width: 80%;
+}
+
+.logo-nav {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-nav img {
+    width: 100px;
+}
+
+nav ul li {
+    padding: 10px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25px;
+    height: 30px;
+    position: relative;
+    left: 0;
+    transition: all linear 0.2s;
+}
+
+.burger-closed {
+    left: 5px!important;
+}
+
+.burger-closed .burger-line:nth-child(2) {
+    opacity: 0!important;
+}
+
+.burger-line {
+    height: 2px;
+    background-color: #FFF;
+    width: 100%;
+    border-radius: 100px;
+    display: flex;
+    transform-origin: 4%;
+    transform: rotate(0deg);
+    transition: all linear 0.2s;
+}
+
+.burger-line:nth-child(2) {
+    margin: 6px 0;
+}
+
+.burger-closed .burger-line:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.burger-closed .burger-line:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+#burger-container p {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#footer-logo {
+    width: 30px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #000;
+}
+
+footer .padd-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer .padd-around ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 5px 0;
+}
+
+footer .padd-around p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+#newsletter {
+    background-color: #070707;
+    border-top: 1px solid #3C3C3C;
+    border-bottom: 1px solid #3C3C3C;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+form input, form textarea, form select {
+    padding: 5px;
+    background-color: transparent;
+    outline: none;
+    color: #FFF;
+    border: unset;
+    border-bottom: 2px solid #3C3C3C;
+    margin-bottom: 20px;
+    transition: all linear 0.2s;
+}
+
+form input:focus, form textarea:focus {
+    border-bottom: 2px solid gold;
+}
+
+.btns {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3C3C3C;
+    color: gold;
+    transform-origin: 50% 50%;
+    transform: scale(1);
+    border: 1px solid transparent;
+    transition: all linear 0.15s;
+}
+
+.btns:hover {
+    background-color: gold;
+    border: 1px solid #3C3C3C;
+    color: #000;
+    transform: scale(1.1);
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    height: 250px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#contact-form .title {
+    justify-content: center;
+    text-align: center;
+}
+
+.fullText p:not(.title) {
+    margin-bottom: 40px;
+}
+
+#middleBG {
+    background-image: url("../media/images/middleBG.jpg");
+}
+
+#bottomBG {
+    background-image: url("../media/images/bottomBG.png");
+}
+
+#middleBG, #bottomBG {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+#bloc1 {
+    background-color: #000;
+}
+
+#bloc2 {
+    background-color: #2D2D2D;
+}
+
+#bloc3 {
+    background-color: #000;
+}
+
+#bloc1, #bloc2, #bloc3 {
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.fullHeight {
+    height: 100vh;
+}
+
+.specials {
+    width: calc(100% - 40px);
+    padding: 30px 20px;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top: 1px solid #3C3C3C;
+    border-bottom: 1px solid #3C3C3C;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#maintenance {
+    background-image: url("/assets/media/images/maintenance.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#error {
+    background-image: url("/assets/media/images/error.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-article, .background-article-solo {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-article {
+    height: 250px;
+}
+
+.background-article-solo {
+    height: 450px;
+}
+
+article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFF;
+    color: #191919;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+article h3 {
+    margin-top: 20px;
+}
+
+article small {
+    margin-bottom: 20px;
+}
+
+article a {
+    margin: 20px auto;
+    width: max-content;
+}
+
+.fullHeight {
+    height: 100vh;
+}
+
+.message-statement {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0 ,0.3);
+    color: #FFF;
+    font-weight: bold;
+    z-index: 300;
+    padding: 20px;
+    border-left: 5px solid #FFF;
+}
+
+.message-ok {
+    background-color: darkolivegreen;
+}
+
+.message-nok {
+    background-color: firebrick;
+}
+
+/* ADMIN CSS */
+
+aside {
+    width: 100%;
+    display: flex;
+}
+
+#admin-logo {
+    width: 60px;
+    height: 60px;
+    display: flex;
+}
+
+#admin-row-sup {
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: calc(100% - 40px);
+    background-color: #000;
+    height: 60px;
+}
+
+#admin-row-sup>div {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 20px;
+}
+
+#admin-row-sup>div>div, #admin-row-sup>form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: max-content;
+}
+
+#admin-row-sup form {
+    width: unset!important;
+}
+
+#admin-row-sup>div>div p {
+    width: max-content;
+}
+
+#picto-logout {
+    display: flex;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-content: center;
+    border: none;
+    margin-left: 20px;
+}
+
+#picto-logout svg {
+    width: 100%;
+    cursor: pointer;
+}
+
+#picto-logout svg path {
+    fill: #FFF;
+    transition: all linear 0.15s;
+}
+
+#picto-logout svg:hover path {
+    fill: firebrick;
+}
+
+.admin-section {
+    position: fixed;
+    z-index: 2;
+    top: 100px;
+    left: 60px;
+    width: calc(100% - 60px);
+    height: calc(100% - 100px);
+    overflow: auto;
+}
+
+#admin-column {
+    position: fixed;
+    top: 100px;
+    width: 60px;
+    z-index: 20;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: calc(100% - 100px);
+}
+
+#admin-column ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#admin-column ul li {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #3C3C3C;
+}
+
+#admin-column ul li:first-of-type {
+    border-top: 1px solid #3C3C3C;
+}
+
+.admin-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: calc(100% - 10px);
+    height: 50px;
+}
+
+.admin-links svg {
+    width: 50%;
+    cursor: pointer;
+}
+
+.admin-links svg path {
+    fill: #FFF;
+}
+
+.admin-links svg:hover path, .active path {
+    fill: gold!important;
+}
+
+.crud-images {
+    height: 40px;
+}
+
+.crud-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.crud-table td, .crud-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.crud-table tr:nth-child(even){background-color: #3C3C3C;}
+
+.crud-table tr:hover {background-color: #ddd;}
+.crud-table tr:hover td {
+    color: #000;
+}
+
+.crud-table td {
+    min-width: 100px;
+}
+
+.crud-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000;
+    color: white;
+}
+
+.admin-section .padd-around {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.crud-table td:last-of-type a {
+    margin: 10px;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.inputs label {
+    margin-bottom: 10px;
+}
+
+.inputs input, .inputs textarea, .inputs select {
+    width: 100%;
+}
