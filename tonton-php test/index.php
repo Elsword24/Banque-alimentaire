@@ -10,7 +10,7 @@ define('__REALPATH__', __DIR__);
  */
 
 //$domain = '/serveur-web/tonton-php'; // Pour le prof
-$domain = ''; // Pour le prof
+$domain = '/php/tonton-php-test'; // Pour le prof
 define('DOMAIN', $domain);
 $uri = str_replace($domain, '', $_SERVER['REQUEST_URI']);
 $uri = explode('?', $uri)[0];
