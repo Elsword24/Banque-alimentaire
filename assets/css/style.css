@@ -9,11 +9,52 @@ header{
     list-style: none;
 }
 
+.row {
+    display: flex;
+}
 
+.wrap {
+    flex-wrap: wrap;
+}
 
+.margin-around {
+    display: flex;
+    margin: 20px;
+    width: calc(100% - 40px);
+}
 
+.padd-around {
+    display: flex;
+    padding: 20px;
+    width: calc(100% - 40px);
+}
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x-center {
+    justify-content: center;
+}
+
+.y-center {
+    align-items: center;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 40px;
+}
 
 
 
