@@ -33,7 +33,7 @@
             <div class="padd-around">
                 <p>
                     <img id="footer-logo" src="<?= DOMAIN ?>/assets/media/images/logo-QS.png">
-                    QUANTICAL SOLUTIONS SARL
+                    La banque alimentaire de Gironde
                 </p>
                 <ul>
                     <li>3 quai Numa Sensine</li>
