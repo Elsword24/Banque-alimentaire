@@ -5,9 +5,9 @@ if (!function_exists('connexion')) {
     function connexion()
     {
         $host = 'localhost';             //myHostAddress
-        $dbuser = 'gefr1116_tonton';     //myUserName
-        $dbpw = 'tonton_a_la_plage';     //myPassword
-        $dbname = 'gefr1116_tonton';     //myDatabase
+        $dbuser = 'root';     //myUserName
+        $dbpw = '';     //myPassword
+        $dbname = 'tonton';     //myDatabase
 
         $pdoReqArg1 = "mysql:host=". $host .";dbname=". $dbname .";";
         $pdoReqArg2 = $dbuser;
