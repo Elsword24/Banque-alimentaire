@@ -1,6 +1,13 @@
-
-
-
+header{
+    display: flex;
+}
+#nav{
+    display: flex;
+}
+.menuHeader{
+    padding: 50px;
+    list-style: none;
+}
 
 
 
