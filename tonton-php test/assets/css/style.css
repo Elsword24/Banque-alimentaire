@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #191919;
+    background-color: #ff7800;
     color: #FFF;
 }
 
@@ -64,7 +64,7 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     padding: 20px 30px;
     width: calc(100% - 60px);
-    background-color: #000;
+    background-color: #ff7800;
 }
 
 nav, nav ul {
@@ -239,7 +239,7 @@ form input:focus, form textarea:focus {
     border-radius: 5px;
     cursor: pointer;
     background-color: #3C3C3C;
-    color: gold;
+    color:#ff7800;
     transform-origin: 50% 50%;
     transform: scale(1);
     border: 1px solid transparent;
@@ -247,7 +247,7 @@ form input:focus, form textarea:focus {
 }
 
 .btns:hover {
-    background-color: gold;
+    background-color:#ff7800;
     border: 1px solid #3C3C3C;
     color: #000;
     transform: scale(1.1);
