@@ -174,7 +174,10 @@ if (!function_exists('maintenance')) {
     function maintenance()
     {
         $ip = [
-           
+            '90.50.145.182', // Fred
+            '92.184.110.182', // Temporaire
+            '109.214.144.207', // Tristan
+            '86.213.50.181' // Clément
         ];
 
         if ((isset($_SERVER['HTTP_X_FORWARDED_FOR']) && in_array($_SERVER['HTTP_X_FORWARDED_FOR'], $ip))
