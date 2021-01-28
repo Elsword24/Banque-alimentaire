@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FFF;
+    background-color: #000000;
     color: #FFF;
 }
 
@@ -57,6 +57,9 @@ section {
     color: #ff7800;
 }
 
+.colorback {
+    background-color: #FFF;
+}
 header {
     display: flex;
     justify-content: space-between;
