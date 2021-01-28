@@ -1,4 +1,4 @@
-<section class="row wrap x-center">
+<section class="row wrap x-center colorback">
     <div class="xLarge-4 large-4 medium-6 small-12 xSmall-12">
         <div class="padd-around">
             <form id="contact-form" method="post">
