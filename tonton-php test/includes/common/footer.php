@@ -4,7 +4,7 @@
     <div class="xLarge-12 large-12 medium-12 small-12 xSmall-12">
         <div class="padd-around">
             <form method="post">
-                <p>Abonnez-vous à la Newsletter !</p>
+            <p style="color: #ff7800 ";>Abonnez-vous à la Newsletter !</p>
                 <input type="email" name="email" autocomplete="off" required spellcheck="false" placeholder="exemple@domaine.com">
                 <button type="submit" class="btns">S'inscrire</button>
             </form>
