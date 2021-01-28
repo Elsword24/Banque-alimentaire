@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #ff7800;
+    background-color: #FFF;
     color: #FFF;
 }
 
@@ -64,7 +64,8 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     padding: 20px 30px;
     width: calc(100% - 60px);
-    background-color: #ff7800;
+    background-color: #FFF;
+    color: #000000
 }
 
 nav, nav ul {
@@ -165,7 +166,8 @@ nav ul li a {
 
 footer {
     padding: 20px;
-    background-color: #000;
+    background-color: #4B4453;
+    color: #FFF;
 }
 
 footer .padd-around {
@@ -192,7 +194,7 @@ footer .padd-around p {
 }
 
 #newsletter {
-    background-color: #070707;
+    background-color: #FFF;
     border-top: 1px solid #3C3C3C;
     border-bottom: 1px solid #3C3C3C;
 }
@@ -230,6 +232,7 @@ form input, form textarea, form select {
 }
 
 form input:focus, form textarea:focus {
+    border:2px solid  #ff7800;
     border-bottom: 2px solid #ff7800;
 }
 
@@ -238,8 +241,8 @@ form input:focus, form textarea:focus {
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #3C3C3C;
-    color:#ff7800;
+    background-color: #ff7800;
+    color: #FFF;
     transform-origin: 50% 50%;
     transform: scale(1);
     border: 1px solid transparent;
@@ -247,9 +250,9 @@ form input:focus, form textarea:focus {
 }
 
 .btns:hover {
-    background-color:#ff7800;
-    border: 1px solid #3C3C3C;
-    color: #000;
+    background-color: #FFF;
+    border: 1px solid #ff7800;
+    color: #ff7800;
     transform: scale(1.1);
 }
 
@@ -270,6 +273,7 @@ textarea {
     text-transform: uppercase;
     width: 100%;
     margin-bottom: 40px;
+    color: #FFF;
 }
 
 #contact-form .title {
