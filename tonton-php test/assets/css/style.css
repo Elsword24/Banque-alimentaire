@@ -232,6 +232,7 @@ form input, form textarea, form select {
     border-bottom: 2px solid #3C3C3C;
     margin-bottom: 20px;
     transition: all linear 0.2s;
+    background-color: #FFF
 }
 
 form input:focus, form textarea:focus {
