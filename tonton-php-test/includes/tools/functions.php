@@ -80,6 +80,18 @@ if (!function_exists('get_page')) {
                     $content = ob_get_clean();
                     break;
 
+                case '/benevole' :
+                    ob_start ();
+                    include __REALPATH__ . '/includes/utilisateurs/benevole.php';
+                    $content = ob_get_clean ();
+                    break;
+    
+                case '/partenaire' :
+                    ob_start ();
+                    include __REALPATH__ . '/includes/utilisateurs/partenaire.php';
+                    $content = ob_get_clean ();
+                    break;
+
                 case '/login':
                     define('ADMIN', true);
                     ob_start();
@@ -377,6 +389,73 @@ if (!function_exists('crudMode')) {
                 header('Location: ' . $uri);
             }
         }
+    }
+}
+
+if (!function_exists('getVolunteers')) {
+
+    function getVolunteers()
+    {
+        $db = connexion();
+        $query = "SELECT * FROM volunteers";
+        $stt = $db->prepare($query);
+        $stt->execute();
+        $articles = $stt->fetchAll(\PDO::FETCH_ASSOC);
+        return $volunteers;
+    }
+}
+
+if (!function_exists('getPartners')) {
+
+    function getPartners()
+    {
+        $db = connexion();
+        $query = "SELECT * FROM partners";
+        $stt = $db->prepare($query);
+        $stt->execute();
+        $articles = $stt->fetchAll(\PDO::FETCH_ASSOC);
+        return $partners;
+    }
+}
+
+if (!function_exists('getLink')) {
+
+    function getLink()
+    {
+        $db = connexion();
+        $query = "SELECT * FROM partner_volunteer";
+        $stt = $db->prepare($query);
+        $stt->execute();
+        $articles = $stt->fetchAll(\PDO::FETCH_ASSOC);
+        return $id;
+        return $volunteers;
+
+    }
+}
+
+if (!function_exists('getExercice')) {
+
+    function getExercice()
+    {
+        $db = connexion();
+        $query = "SELECT * FROM exercice";
+        $stt = $db->prepare($query);
+        $stt->execute();
+        $articles = $stt->fetchAll(\PDO::FETCH_ASSOC);
+        return $partners;
+    }
+}
+
+if (!function_exists('getLinkExPart')) {
+
+    function getlinkExPart()
+    {
+        $db = connexion();
+        $query = "SELECT * FROM exercice_partner";
+        $stt = $db->prepare($query);
+        $stt->execute();
+        $articles = $stt->fetchALL(\PDO::FETCH_ASSOC);
+        return $LinkExPart;
     }
 }
 

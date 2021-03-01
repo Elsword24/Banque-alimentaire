@@ -609,3 +609,210 @@ aside {
 .inputs input, .inputs textarea, .inputs select {
     width: 100%;
 }
+
+#image-resize {
+    background-image: url("../media/images/header nos soutiens banques alimentaires.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 169.7vh;
+    display: block;
+}
+
+.logorsz {
+    padding-left: 40ch;
+}
+
+.map-svg path {
+    fill:none;
+    stroke:white;
+    stroke-width: 1px;
+}
+
+.Merignac {
+
+}
+
+svg g path {
+    fill:orange;
+    fill-opacity:1;
+    fill-rule:evenodd;
+    stroke:#000000;
+    stroke-width:2;
+    stroke-miterlimit:4;
+    stroke-dasharray:none
+}
+
+svg g path:hover {
+    fill:blue;
+    fill-opacity: 1;
+    fill-rule: evenodd;
+}
+
+.Pessac {
+    
+}
+
+.Villenave-d-Ornon {
+
+}
+
+.Talence {
+
+}
+
+.Le-Bouscat {
+
+}
+
+.Saint-Medard-en-Jalles {
+
+}
+
+.Andernos-les-Bains {
+
+}
+
+.Les-Coteaux-de-Dordogne {
+
+}
+
+.Le-Libournais-Fronsadais {
+
+}
+
+.Lormont {
+
+}
+
+.La-Presqu-île {
+
+}
+
+.La-Teste-de-Buch {
+
+}
+
+.Cenon {
+
+}
+
+.Le-Nord-Gironde {
+
+}
+
+.Gujan-Mestras {
+
+}
+
+.Créon {
+
+}
+
+.Le-Sud-Medoc {
+
+}
+
+.Les-Landes-des-Graves {
+
+}
+
+.La-Brède {
+
+}
+
+.Le-Nord-Medoc {
+    
+}
+
+.L-Entre-Deux-Mers {
+
+}
+
+.Le-Sud-Gironde {
+
+}
+
+.Les-Portes-du-Medoc {
+
+}
+
+.Le-Reolais-et-Les-Bastides {
+
+}
+
+.L-Estuaire {
+
+}
+
+.Bordeaux {
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+    /* The Close Button */
+    .close1 {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close1:hover,
+      .close1:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }

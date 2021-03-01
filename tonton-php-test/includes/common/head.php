@@ -48,6 +48,9 @@
             <li class="<?= ($uri == '/connexion') ? 'active' : '' ?>">
                 <a href="<?= DOMAIN ?>/connexion">Connexion</a>
             </li>
+            <li class="<?= ($uri == '/nous_soutenir') ? 'active' : '' ?>">
+                <a href="<?= DOMAIN ?>/nous_soutenir">Nous soutenir</a>
+            </li>
         </ul>
     </nav>
 </header>
