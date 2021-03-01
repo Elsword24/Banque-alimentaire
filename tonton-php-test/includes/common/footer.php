@@ -1,16 +1,5 @@
 </main>
 <?php if (!defined('MAINTENANCE') && !defined('ERROR_404') && !defined('ADMIN')) { ?>
-<section class="row wrap" id="newsletter">
-    <div class="xLarge-12 large-12 medium-12 small-12 xSmall-12">
-        <div class="padd-around">
-            <form method="post">
-                <p>Abonnez-vous à la Newsletter !</p>
-                <input type="email" name="email" autocomplete="off" required spellcheck="false" placeholder="exemple@domaine.com">
-                <button type="submit" class="btns">S'inscrire</button>
-            </form>
-        </div>
-    </div>
-</section>
 <footer>
     <section class="row wrap">
         <div class="xLarge-4 large-4 medium-12 small-12 xSmall-12">
@@ -32,30 +21,30 @@
         <div class="xLarge-4 large-4 medium-12 small-12 xSmall-12">
             <div class="padd-around">
                 <p>
-                    <img id="footer-logo" src="<?= DOMAIN ?>/assets/media/images/logo-QS.png">
-                    QUANTICAL SOLUTIONS SARL
+                    <img id="footer-logo" src="<?= DOMAIN ?>/assets/media/images/logo-banquealimentaire_1.jpg">
+                    La banque alimentaire de Bodeaux
                 </p>
                 <ul>
-                    <li>3 quai Numa Sensine</li>
-                    <li>33310 LORMONT - FRANCE</li>
+                    <li>Z.I Alfred Daney</li>
+                    <li>33300 Bordeaux Nord</li>
                     <li>
-                        <a href="mailto:in-touch-fg@quanticalsolutions.com">Email : in-touch-fg@quanticalsolutions.com</a>
+                        <a href="mailto:ba330@banquealimentaire.org">Email:ba330@banquealimentaire.org</a>
+                    </li>
+                    <li>
+                        <a href="tel: +33556431063">Notre contact téléphone : 05 56 43 10 63</a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="xLarge-4 large-4 medium-12 small-12 xSmall-12">
             <div class="padd-around">
-                <p>Derniers articles</p>
+                <p>Information supplémentaire</p>
                 <ul>
                     <li>
-                        <a href="<?= DOMAIN ?>/blog/papa-a-la-plage">Papa à la plage</a>
+                        <a href="https://ba33.banquealimentaire.org">Notre site officiel</a>
                     </li>
                     <li>
-                        <a href="<?= DOMAIN ?>/blog/l-epsi-c-est-cool">L'EPSI c'est cool !</a>
-                    </li>
-                    <li>
-                        <a href="<?= DOMAIN ?>/blog/toto-a-gagne-au-loto">Toto a gagné au Loto</a>
+                        <a href="https://www.banquealimentaire.org/">La Banque alimentaire dans toute la France</a>
                     </li>
                 </ul>
             </div>

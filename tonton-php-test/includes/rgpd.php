@@ -3,10 +3,10 @@
         <div class="padd-around">
             <div class="column fullText">
                 <p class="title">Introduction</p>
-                <p>Dans le cadre de son activité, la société [Société], dont le siège social est situé au [Adresse du siège social], est amenée à collecter et à traiter des informations dont certaines sont qualifiées de "données personnelles". [Société] attache une grande importance au respect de la vie privée, et n’utilise que des donnes de manière responsable et confidentielle et dans une finalité précise.</p>
+                <p>Dans le cadre de son activité, les banques alimentaires de France, dont le siège social est situé au 5 RUE DU VAL DE MARNE 94250 Gentilly, est amenée à collecter et à traiter des informations dont certaines sont qualifiées de "données personnelles". La FFBA attache une grande importance au respect de la vie privée, et n’utilise que des données de manière responsable et confidentielle et dans une finalité précise.</p>
 
                 <p class="title">Données personnelles</p>
-                <p>Sur le site web [Adresse du site], il y a 2 types de données susceptibles d’être recueillies :</p>
+                <p>Sur le site web BA33.banquealimentaire , il y a 2 types de données susceptibles d’être recueillies :</p>
 
                 <p class="title">Les données transmises directement</p>
                 <p>Ces données sont celles que vous nous transmettez directement, via un formulaire de contact ou bien par contact direct par email. Sont obligatoires dans le formulaire de contact le champs « prénom et nom », « entreprise ou organisation » et « email ».
@@ -26,13 +26,31 @@
                 <p>Voici la liste des cookies utilisées et leur objectif :</p>
 
                 <p class="title">Cookies Google Analytics (liste exhaustive) : Web analytics</p>
-                <p>[Nom du cookie] : Permet de garder en mémoire le fait que vous acceptez les cookies afin de ne plus vous importuner lors de votre prochaine visite.</p>
+                <p>[BanqueAlimentaire33] : Permet de garder en mémoire le fait que vous acceptez les cookies afin de ne plus vous importuner lors de votre prochaine visite.</p>
 
                 <p class="title">Vos droits concernant les données personnelles</p>
                 <p>Vous avez le droit de consultation, demande de modification ou d’effacement sur l’ensemble de vos données personnelles. Vous pouvez également retirer votre consentement au traitement de vos données.</p>
 
                 <p class="title">Contact délégué à la protection des données</p>
-                <p>[Nom du contact] - [Idéalement au moins 2 façons de le contacter]</p>
+                <p>Pour faire valoir vos droits, vous pouvez faire la demande par courrier auprès du responsable de traitement en précisant l’objet de votre demande :
+                    <ul>
+                        <li>
+                            <p>Dons : Service Comptabilité/ Trésorerie </p>
+                        </li>
+                        <li>
+                            <p>Contact : Secrétariat</p>
+                        </li>
+                        <li>
+                            <p>Candidature : Service Ressources Humaines</p>
+                        </li>
+                        <li>
+                            <p>Newsletter : Service Communication </p>
+                        </li>
+                        <li>
+                            <p>Fédération Française des Banques Alimentaires - 15 rue du Val de Marne 94250 Gentilly - par email à ffba@banquealimentaire.org </p>
+                        </li>
+                    </ul>
+                </p>
             </div>
         </div>
     </div>
