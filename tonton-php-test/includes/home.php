@@ -1,8 +1,4 @@
-<?php 
-$bdd = new PDO('mysql:host=localhost;dbname=banque alimentaire','root','',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-$titre = $bdd->query('SELECT title From information WHERE id=1');
 
-?>
 
 <section class="row wrap">
     <img id="accueilIMG" rel="accueil" src="<?= DOMAIN ?>/assets/media/images/accueil.jpg">
