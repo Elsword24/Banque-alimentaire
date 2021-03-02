@@ -45,11 +45,11 @@
             <li class="<?= ($uri == '/contact') ? 'active' : '' ?>">
                 <a href="<?= DOMAIN ?>/contact">Contact</a>
             </li>
-            <li class="<?= ($uri == '/admin') ? 'active' : '' ?>">
-                <a href="<?= DOMAIN ?>/admin">Connexion</a>
-            </li>
             <li class="<?= ($uri == '/register') ? 'active' : '' ?>">
                 <a href="<?= DOMAIN ?>/register">Inscription</a>
+            </li>
+            <li class="<?= ($uri == '/admin') ? 'active' : '' ?>">
+                <a href="<?= DOMAIN ?>/admin">Connexion</a>
             </li>
         </ul>
     </nav>

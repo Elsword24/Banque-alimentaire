@@ -1,5 +1,5 @@
 <section class="row wrap">
-    <div class="xLarge-4 large-4 medium-12 small-12 xSmall-12">
+    <div class="xLarge-12 large-12 medium-12 small-12 xSmall-12">
         <div class="padd-arround" id="image-resize">
             
         </div>
@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="xLarge-6 large-6 medium-12 small-12 xSmall-12">
-        <div class="padd-around fullText bg-black">
+        <div class="padd-around fullText">
             <div class="padd-around column">
                 <p class="title">Titre</p>
                 <p>
@@ -272,6 +272,14 @@
             </g>
          </g>
       </svg>
+    </div>
+    <div class="xLarge-6 large-6 medium-12 small-12 xSmall-12">
+        <div class="padd-around fullText">
+            <div class="padd-around column">
+                <p>
+                </p>
+            </div>
+        </div>
     </div>
     <!-- The Modal -->
    <div id="myModal" class="modal">

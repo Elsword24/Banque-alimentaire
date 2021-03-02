@@ -1,13 +1,12 @@
-@import url(fonts.css);
-@import url(reboot.css);
+@import url(fonts.css);@import url(reboot.css);
 @import url(responsive.css);
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #ffffff;
-    color: #000;
+    background-color: #dedede;
+    color: #000000;
 }
 
 section {
@@ -57,6 +56,15 @@ section {
     color: #ff7500;
 }
 
+.preference {
+    color: #ff7500;
+    font-weight: bold;
+}
+
+.zonetexte {
+    color: #ff7500;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -97,7 +105,7 @@ nav ul {
 }
 
 .logo-nav img {
-    width: 100px;
+    width: 200px;
 }
 
 nav ul li {
@@ -133,13 +141,14 @@ nav ul li a {
 
 .burger-line {
     height: 2px;
-    background-color: #FFF;
+    background-color: #0000;
     width: 100%;
     border-radius: 100px;
     display: flex;
     transform-origin: 4%;
     transform: rotate(0deg);
     transition: all linear 0.2s;
+    color: #000000
 }
 
 .burger-line:nth-child(2) {
@@ -165,7 +174,8 @@ nav ul li a {
 
 footer {
     padding: 20px;
-    background-color: #000;
+    background-color: #777777;
+    color: #FFF
 }
 
 footer .padd-around {
@@ -208,6 +218,7 @@ form {
 form label {
     width: 100%;
     margin-bottom: 10px;
+    color: #ff7500;
 }
 
 form p {
@@ -220,9 +231,9 @@ form p {
 
 form input, form textarea, form select {
     padding: 5px;
-    background-color: transparent;
+    background-color: #CECECE;
     outline: none;
-    color: #FFF;
+    color: #000000;
     border: unset;
     border-bottom: 2px solid #3C3C3C;
     margin-bottom: 20px;
@@ -230,7 +241,7 @@ form input, form textarea, form select {
 }
 
 form input:focus, form textarea:focus {
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid #ff7500;
 }
 
 .btns {
@@ -238,8 +249,8 @@ form input:focus, form textarea:focus {
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #3C3C3C;
-    color: gold;
+    background-color: #ff7500;
+    color: #FFF;
     transform-origin: 50% 50%;
     transform: scale(1);
     border: 1px solid transparent;
@@ -247,9 +258,9 @@ form input:focus, form textarea:focus {
 }
 
 .btns:hover {
-    background-color: gold;
-    border: 1px solid #3C3C3C;
-    color: #000;
+    background-color: #ff7500;
+    border: 1px solid #000000;
+    color: #FFF;
     transform: scale(1.1);
 }
 
@@ -268,6 +279,7 @@ textarea {
     font-size: 26px;
     font-weight: bold;
     text-transform: uppercase;
+    color: #ff7500; 
     width: 100%;
     margin-bottom: 40px;
 }
@@ -307,10 +319,12 @@ textarea {
 
 #bloc4, #bloc6{
     background-color: #ff7500;
+    color: #000000;
 }
 
 #bloc5, #bloc7{
-    background-color: #ffffff;
+    background-color: #ff7500;
+    color: #000000;
 }
 
 .bg-black {
@@ -619,6 +633,18 @@ aside {
     height: 40vh;
     width: 169.7vh;
     display: block;
+}
+
+#image-resize1 {
+    background-image: url("../media/images/accueil.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: auto;
+    display: block;
+    margin-right: 0px;
 }
 
 .logorsz {

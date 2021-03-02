@@ -22,13 +22,13 @@
             <div class="padd-around">
                 <p>
                     <img id="footer-logo" src="<?= DOMAIN ?>/assets/media/images/logo-banquealimentaire_1.jpg">
-                    La banque alimentaire de Bodeaux
+                        La banque alimentaire de Bordeaux
                 </p>
                 <ul>
                     <li>Z.I Alfred Daney</li>
                     <li>33300 Bordeaux Nord</li>
                     <li>
-                        <a href="mailto:ba330@banquealimentaire.org">Email:ba330@banquealimentaire.org</a>
+                        <a href="mailto:ba330@banquealimentaire.org">Email : ba330@banquealimentaire.org</a>
                     </li>
                     <li>
                         <a href="tel: +33556431063">Notre contact téléphone : 05 56 43 10 63</a>
@@ -38,7 +38,7 @@
         </div>
         <div class="xLarge-4 large-4 medium-12 small-12 xSmall-12">
             <div class="padd-around">
-                <p>Information supplémentaire</p>
+                <p>Informations supplémentaires</p>
                 <ul>
                     <li>
                         <a href="https://ba33.banquealimentaire.org">Notre site officiel</a>

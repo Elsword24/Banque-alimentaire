@@ -7,7 +7,7 @@ if (!function_exists('connexion')) {
         $host = 'localhost';             //myHostAddress
         $dbuser = 'root';     //myUserName
         $dbpw = '';     //myPassword
-        $dbname = 'tonton';     //myDatabase
+        $dbname = 'banque-alimentaire';     //myDatabase
 
         $pdoReqArg1 = "mysql:host=". $host .";dbname=". $dbname .";";
         $pdoReqArg2 = $dbuser;
@@ -53,6 +53,12 @@ if (!function_exists('get_page')) {
                 case '/blog':
                     ob_start();
                     include __REALPATH__ . '/includes/blog.php';
+                    $content = ob_get_clean();
+                    break;
+
+                case '/register':
+                    ob_start();
+                    include __REALPATH__ . '/includes/register.php';
                     $content = ob_get_clean();
                     break;
 
