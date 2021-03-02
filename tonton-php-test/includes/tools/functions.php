@@ -44,7 +44,7 @@ if (!function_exists('get_page')) {
                     $content = ob_get_clean();
                     break;
 
-                case '/a-propos':
+                case '/about':
                     ob_start();
                     include __REALPATH__ . '/includes/about.php';
                     $content = ob_get_clean();
@@ -96,6 +96,12 @@ if (!function_exists('get_page')) {
                     define('ADMIN', true);
                     ob_start();
                     include __REALPATH__ . '/includes/admin/login.php';
+                    $content = ob_get_clean();
+                    break;
+
+                case '/nous_soutenir':
+                    ob_start();
+                    include __REALPATH__ . '/includes/nous_soutenir.php';
                     $content = ob_get_clean();
                     break;
 

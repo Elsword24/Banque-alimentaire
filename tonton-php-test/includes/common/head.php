@@ -36,20 +36,20 @@
             <li class="<?= ($uri == '/') ? 'active' : '' ?>">
                 <a href="<?= DOMAIN ?>/">Accueil</a>
             </li>
-            <li class="<?= ($uri == '/a-propos') ? 'active' : '' ?>">
-                <a href="<?= DOMAIN ?>/a-propos">&Agrave; propos</a>
+            <li class="<?= ($uri == '/about') ? 'active' : '' ?>">
+                <a href="<?= DOMAIN ?>/about">&Agrave; propos</a>
             </li>
-            <li class="<?= ($segments[1] == 'blog') ? 'active' : '' ?>">
-                <a href="<?= DOMAIN ?>/blog">Carte</a>
+            <li class="<?= ($segments[1] == '/nous_soutenir') ? 'active' : '' ?>">
+                <a href="<?= DOMAIN ?>/nous_soutenir">Carte</a>
             </li>
             <li class="<?= ($uri == '/contact') ? 'active' : '' ?>">
                 <a href="<?= DOMAIN ?>/contact">Contact</a>
             </li>
-            <li class="<?= ($uri == '/connexion') ? 'active' : '' ?>">
-                <a href="<?= DOMAIN ?>/connexion">Connexion</a>
+            <li class="<?= ($uri == '/admin') ? 'active' : '' ?>">
+                <a href="<?= DOMAIN ?>/admin">Connexion</a>
             </li>
-            <li class="<?= ($uri == '/nous_soutenir') ? 'active' : '' ?>">
-                <a href="<?= DOMAIN ?>/nous_soutenir">Nous soutenir</a>
+            <li class="<?= ($uri == '/jesaispas') ? 'active' : '' ?>">
+                <a href="<?= DOMAIN ?>/jesaispas">Je sais pas</a>
             </li>
         </ul>
     </nav>
