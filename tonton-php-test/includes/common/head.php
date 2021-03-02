@@ -48,8 +48,8 @@
             <li class="<?= ($uri == '/admin') ? 'active' : '' ?>">
                 <a href="<?= DOMAIN ?>/admin">Connexion</a>
             </li>
-            <li class="<?= ($uri == '/jesaispas') ? 'active' : '' ?>">
-                <a href="<?= DOMAIN ?>/jesaispas">Je sais pas</a>
+            <li class="<?= ($uri == '/register') ? 'active' : '' ?>">
+                <a href="<?= DOMAIN ?>/register">Inscription</a>
             </li>
         </ul>
     </nav>
