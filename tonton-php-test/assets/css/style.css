@@ -65,6 +65,10 @@ section {
     color: #ff7500;
 }
 
+.backcolor {
+    background-color: #D1D1D1;
+}
+
 header {
     display: flex;
     justify-content: space-between;
