@@ -1,10 +1,14 @@
 <section class="row wrap">
-    <div class="xLarge-12 large-12 medium-12 small-12 xSmall-12">
-        <div class="padd-arround" id="image-resize">
-            
+<div class="xLarge-6 large-6 medium-12 small-12 xSmall-12">
+        <div class="padd-around fullText ">
+            <div class="padd-around column">
+                <p>
+                </p>
+            </div>
         </div>
+    </div>
 </section>
-<section class="row wrap">
+<section class="row wrap backcolor">
     <div class="xLarge-6 large-6 medium-12 small-12 xSmall-12">
         <div class="padd-around fullText">
             <div class="padd-around column">
@@ -33,9 +37,17 @@
             </div>
         </div>
     </div>
-    <div class="padd-arround" id="image-resize">
+    <div class="xLarge-6 large-6 medium-12 small-12 xSmall-12">
+    </section>
+    <section>
+        <div class="padd-around fullText ">
+            <div class="padd-around column">
+                <p>
+                </p>
+            </div>
+        </div>
+    </div>
             
-            </div>
 </section>
 
 <section class="row wrap">
